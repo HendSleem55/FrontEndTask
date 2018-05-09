@@ -6,7 +6,7 @@ is an online products shope website, that enable users to
 * Favorite products.
 * Filter them by diffrent ways (ex: color, price, catigories ,...etc).
 
-Main page is ###index.html 
+Main page is ### index.html 
 
 This version includes
 *Home page
@@ -14,7 +14,7 @@ This version includes
 and you can navigate betwen them throw the navigation menu
 
 
-##CSS selectors : 
+## CSS selectors : 
 
 the website includes many diffrent types of selectors:
 * selecting by class, ex: .Shop{..}
@@ -25,7 +25,7 @@ the website includes many diffrent types of selectors:
 
 
 
-##javascript and jQuery functions : 
+## javascript and jQuery functions : 
 
 
 
