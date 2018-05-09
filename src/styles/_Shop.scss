@@ -1,0 +1,139 @@
+
+.Shop{
+	main img {	
+		width: 100%;
+	}
+
+	.cat{
+		display: flex;
+		width: 100%;
+
+		background:rgb(0, 0, 0);
+		p{
+			margin-bottom: 0;
+			color: floralwhite;
+		}
+
+	}
+
+	.deatails {
+		display: none;
+	}
+
+
+	#nested {
+		top: 0px;
+	}
+
+
+	position:relative;
+	.cart{
+		position:absolute;
+		top:0;
+		right:15;
+		width:350px;
+		background-color:rgba(255,255,255,.9);
+		box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.15);
+		display:none;
+
+		img {
+			width:70px; 
+			height:70px;
+		}
+	}	
+
+	.fa-star{
+		font-size: 10px
+	}
+
+	.fas.fa-heart {
+		color: red;
+	}
+
+	header{
+        section{
+	        @include background('../../imgs/shopGrid/section-bg-shop.jpg',cover);
+	    }
+	}
+	
+	section{
+	 	nav {
+	 		width:auto;
+			display:inline-block;
+	 	}
+	}
+
+	a{
+		width:auto;
+		display:inline-block;
+	}
+
+	.inside li {
+		list-style-position: inside;
+	}
+
+
+	.Myoverlay{
+		display:none !important;
+	}
+
+
+	.base:hover .Myoverlay{
+		display:flex !important;
+		
+	}
+
+	#cartShow:hover  {
+		cursor:pointer;
+	}
+
+}
+
+
+@media only screen and (max-width:991.98px) {
+    .Filter {
+        display: none;
+	}
+
+	.custom-mb {
+
+		margin-bottom: 15px;
+	}
+
+	#nested {
+		top :0;
+		height: auto;
+		max-height: 60px;
+		background:rgba(0, 0, 0 , 0.7);
+
+	}
+	#ProductCategories:hover {
+		cursor: pointer;
+
+	}
+
+}
+
+@media only screen and (max-width:575.98px) {
+    
+	#nested {
+		max-height: 70px;
+	}
+
+	.pag  .col-md-2 {
+		display: none;
+	}
+
+}
+
+@media only screen and (min-width:991.98px) {
+	.cat{
+		display: none !important;
+	}
+ }
+ 
+@media (max-width: 575.98px) {
+	nav #cartShow {
+		display: none;
+	}
+ }

@@ -1,0 +1,35 @@
+*{
+	color:#7a7a7a;
+}
+
+.colored , i , button{
+	color:#303233;
+}
+
+.yellowColored{
+	color:#FBCA03;
+}
+
+.Home
+{
+    h4 , h2 , h5 , button , h6 , i{
+    	@extend .colored ; 
+    }
+
+    .WhatWeDo i {
+    	@extend .yellowColored ; 
+    }
+
+
+}
+
+.Shop {
+	   h6 , li  , .col-sm-9 p{
+    		@extend .colored ; 
+    }
+
+    li p {
+		color:#7a7a7a
+    }
+}
+

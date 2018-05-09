@@ -1,0 +1,90 @@
+@font-face {
+	font-family: 'Conv_KaushanScript-Regular';
+	src: url('fonts/KaushanScript-Regular.eot');
+	src: local('☺'), url('fonts/KaushanScript-Regular.woff') format('woff'), url('fonts/KaushanScript-Regular.ttf') format('truetype'), url('fonts/KaushanScript-Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+@font-face {
+	font-family: 'Conv_Lato-Regular';
+	src: url('fonts/Lato-Regular.eot');
+	src: local('☺'), url('fonts/Lato-Regular.woff') format('woff'), url('fonts/Lato-Regular.ttf') format('truetype'), url('fonts/Lato-Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+
+@font-face {
+	font-family: 'Conv_Raleway-Bold';
+	src: url('fonts/Raleway-Bold.eot');
+	src: local('☺'), url('fonts/Raleway-Bold.woff') format('woff'), url('fonts/Raleway-Bold.ttf') format('truetype'), url('fonts/Raleway-Bold.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+
+h2 , h3 , h6,.realway14 , button , .numbers p , .Shop h2 , .Home h1{
+	font-family: 'Conv_Raleway-Bold';
+}
+
+
+
+.title{
+	font-family: 'Conv_KaushanScript-Regular';
+}
+
+
+
+p , whatTheySay h4 , .PreviouslyViewed h5 ,.Home0 h5{
+	font-family: 'Conv_Lato-Regular';
+}
+
+
+
+h2 {
+    font-size:30px;
+}
+
+
+.realway14 , p , button , .whatTheySay p , .PreviouslyViewed h6 , .Home h5.title{
+	font-size:14px;
+}
+
+
+.font10{
+	font-size:10px;
+}
+
+
+h6 , .PreviouslyViewed h5 {
+    font-size:18px;
+}
+ 
+
+li p , .whatWeDO p .numbers p , .Avommore p{
+    font-size:12px;
+}
+
+
+h3{
+    font-size:24px;
+}
+
+
+.whatTheySay h4, .Shop h3 , .Home span ,.Home main h2 , .Home option , .Home label ,  
+{
+	font-size:16px;
+
+}
+
+.whatTheySay h3 ,.no-gutters h3 , .WhatTheySay h6{
+	font-size:20px;
+}
+
+.Home h1{
+	font-size:80px;
+}
