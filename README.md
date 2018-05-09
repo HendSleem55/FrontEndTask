@@ -36,12 +36,12 @@ the website includes many diffrent types of selectors:
 jQuery event handler, that takes two inputs:-
 	- the event itself (click)
 	- anonymous function that will be execute onclick.
-the output :-
-    -navigate to the shop page.
+Output:-
+         - navigate to the shop page.
 
 
 
-
+---
 
 
 	$("#ProductCategories").on("click", function(){
@@ -52,12 +52,12 @@ jQuery event handler, that takes two inputs:-
 	- the event itself (click)
 	- anonymous function that will be execute onclick.
 
-output:- 
+Output:- 
 	- show and hide the dropdown list.
 
 
 
-
+----
 
 	$("#cartShow").click(function(){
 	     $("#myCart").toggle();
@@ -68,12 +68,12 @@ jQuery event handler, that takes two inputs:-
 	- the event itself (click)
 	- anonymous function that will be execute onclick.
 
-output:- 
+Output:- 
 	- show and hide the cart menu.
 
 
 
-
+---
 
 	var hearts = document.getElementsByClassName("fa-heart");
 	for (var i = 0; i < hearts.length; i++) {
@@ -90,10 +90,10 @@ Javascript event handler, that takes three inputs:-
 	- anonymous function that will be execute onclick.
 	- false the default value for event bubbling. 
 
-output:
-	- fill the stroke heart icon by converting it into a colored solid heart and return it back to an enpty solid heart if it has clicked on again .
+Output:
+	- fill the stroke heart icon by converting it into a colored solid heart and return it back to an enpty solid heart if it has 		clicked on again .
 
-
+---
 
 
 	$( function() {
@@ -114,7 +114,7 @@ output:
 jQuery function that will control the price range values and display the minmuim and maxmuim values .
 
 
-
+---
 
 	function myMap() {
 	    var mapOptions = {
