@@ -1,10 +1,10 @@
 
 # Create Studio 
 is an online products shope website, that enable users to 
-..* Display List of products.
-..* Adding product to the cart.
-..* Favorite products.
-..* Filter them by diffrent ways (ex: color, price, catigories ,...etc).
+* Display List of products.
+* Adding product to the cart.
+* Favorite products.
+* Filter them by diffrent ways (ex: color, price, catigories ,...etc).
 
 Main page is index.html 
 This version includes
