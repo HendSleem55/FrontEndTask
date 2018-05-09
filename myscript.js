@@ -6,6 +6,15 @@ $("#shop").on("click",function(){
 })
 
 
+//show the drop down menue -categories-
+$("#ProductCategories").on("click", function(){
+    $("#nested").toggleClass("cat");
+    $("#nested").toggleClass("deatails");
+})
+
+
+
+
 
 //show the cart Window 
 $("#cartShow").click(function(){
@@ -23,12 +32,6 @@ for (var i = 0; i < hearts.length; i++) {
     }) 
 }
 
-
-//show the drop down menue -categories-
-$("#ProductCategories").on("click", function(){
-    $("#nested").toggleClass("cat");
-    $("#nested").toggleClass("deatails");
-})
 
 
 //the slider price range

@@ -1,1 +1,117 @@
-"# FrontEndTask" 
+Create Studio is a website that displays and sells online products, the Home page provides some information about the website itself and the Shop page enables the user to see the products, adding them to the cart ,make products favorite and filter them by diffrent ways (ex: color, price, catigories ,...etc).
+
+the website includes two pages Home and Shop, You can access the Show page by clicking on the nav icon and then choose the Shop item from the dropdown menu.
+
+
+CSS selectors : 
+the website includes many diffrent types of selectors: 
+	- selecting by class, ex: .Shop{..}
+	- selecting by id, ex : #nested {..}
+	- selecting by Tag name, ex : nav {..}
+	-nested selecting (parent child ), ex : ul li p {}
+
+
+
+
+javascript and jQuery functions : 
+1- $("#shop").on("click",function(){
+    window.location.href = 'Shop grid.html';
+    return false ; 
+})
+jQuery event handler, that takes two inputs:-
+	- the event itself (click)
+	- anonymous function that will be execute onclick.
+the output :-
+    -navigate to the shop page.
+
+
+
+
+
+
+2- $("#ProductCategories").on("click", function(){
+    $("#nested").toggleClass("cat");
+})
+
+jQuery event handler, that takes two inputs:-
+	- the event itself (click)
+	- anonymous function that will be execute onclick.
+
+output:- 
+	- show and hide the dropdown list.
+
+
+
+
+
+3- $("#cartShow").click(function(){
+     $("#myCart").toggle();
+}); 
+
+
+jQuery event handler, that takes two inputs:-
+	- the event itself (click)
+	- anonymous function that will be execute onclick.
+
+output:- 
+	- show and hide the cart menu.
+
+
+
+
+
+4- var hearts = document.getElementsByClassName("fa-heart");
+for (var i = 0; i < hearts.length; i++) {
+    hearts[i].addEventListener('click', function() {
+
+        this.classList.toggle("far");
+        this.classList.toggle("fas");
+    } , false) 
+}
+
+
+
+5- Javascript event handler, that takes three inputs:-
+	- the event itself (click)
+	- anonymous function that will be execute onclick.
+	- false the default value for event bubbling. 
+
+output:
+	- fill the stroke heart icon by converting it into a colored solid heart and return it back to an enpty solid heart if it has clicked on again .
+
+
+
+
+6- $( function() {
+    $( "#slider-range" ).slider({
+      range: true,
+      min: 0,
+      max: 500,
+      values: [ 75, 300 ],
+      slide: function( event, ui ) {
+        $( "#amount" ).val( "$" + ui.values[ 0 ] + " - $" + ui.values[ 1 ] );
+      }
+    });
+    $( "#amount" ).val( "$" + $( "#slider-range" ).slider( "values", 0 ) +
+      " - $" + $( "#slider-range" ).slider( "values", 1 ) );
+  } );
+
+
+jQuery function that will control the price range values and display the minmuim and maxmuim values .
+
+
+
+
+7-function myMap() {
+    var mapOptions = {
+        center: new google.maps.LatLng(51.5, -0.12),
+        zoom: 10,
+        mapTypeId: google.maps.MapTypeId.HYBRID
+    }
+    var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+}
+myMap()
+
+
+a HTML MAP API that will display the map of a plcae with a LatLng(51.5, -0.12)
+
