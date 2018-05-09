@@ -3,7 +3,7 @@ Create Studio is a website that displays and sells online products, the Home pag
 the website includes two pages Home and Shop, You can access the Show page by clicking on the nav icon and then choose the Shop item from the dropdown menu.
 
 
-CSS selectors : 
+CSS selectors: 
 the website includes many diffrent types of selectors: 
 	- selecting by class, ex: .Shop{..}
 	- selecting by id, ex : #nested {..}
